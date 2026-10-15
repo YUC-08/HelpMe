@@ -6,6 +6,23 @@ Harici ağır framework veya hantal kütüphanelere ihtiyaç duymadan, **Saf PHP
 
 ---
 
+## 🌐 Canlı Demo & Erişim Bağlantıları
+
+Platform canlı sunucuda yayındadır. Aşağıdaki bağlantılar üzerinden doğrudan test edebilirsiniz:
+
+| Sayfa | Canlı URL | Açıklama |
+| :--- | :--- | :--- |
+| **Ana Sayfa** | [http://helpmenteksis.fun/index.php](http://helpmenteksis.fun/index.php) | Karşılama ve platform tanıtımı |
+| **Destek Talebi Oluştur** | [http://helpmenteksis.fun/index.php#destek-talebi](http://helpmenteksis.fun/index.php#destek-talebi) | Hızlı bilet / talep formu |
+| **Talep Sorgula & Chat** | [http://helpmenteksis.fun/track.php](http://helpmenteksis.fun/track.php) | Takip koduyla canlı yazışma akışı |
+| **Yönetici Paneli** | [http://helpmenteksis.fun/admin/admin.php](http://helpmenteksis.fun/admin/admin.php) | 2FA destekli yönetim paneli |
+
+> **🔐 Canlı Yönetici Giriş Bilgileri:**
+> - **Giriş (Kullanıcı Adı):** `admin`
+> - **Şifre:** `auua123` 
+
+---
+
 ## 🚀 Temel Özellikler ve Mimari
 
 ### 1. Kullanıcı Tarafı & Talep Yönetimi

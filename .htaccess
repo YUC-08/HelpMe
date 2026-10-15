@@ -1,3 +1,8 @@
+# Varsayılan Karakter Seti (Tüm metin ve markdown dosyalarında Türkçe karakterlerin düzgün görünmesi için)
+AddDefaultCharset UTF-8
+AddType "text/plain; charset=UTF-8" .md .txt .sql .log
+AddCharset UTF-8 .md .txt .sql .log .json .css .js
+
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
