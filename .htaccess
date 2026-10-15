@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Eğer istek gerçek bir dosyaya veya klasöre yapılmadıysa, public klasörüne yönlendir
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # public klasöründe olmayan istekleri public/ altındaki dosyalara yönlendir
+    RewriteRule ^(.*)$ public/$1 [L]
+
+    # Ana dizine gelen boş istekleri public/index.php'ye yönlendir
+    RewriteRule ^$ public/index.php [L]
+    
+    # Eski track.php çağrılarını public/track.php'ye yönlendir
+    RewriteRule ^track\.php$ public/track.php [L,QSA]
+</IfModule>
